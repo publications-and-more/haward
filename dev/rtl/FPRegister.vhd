@@ -1,4 +1,4 @@
--- ( (c) Amlal EL Mahrouss, all rights reserved. )
+-- ( (c) Amlal El Mahrouss 2024-2025, licensed under Apache 2.0 )
 -- ( This file handles the floating point registers. )
 
 LIBRARY IEEE;

@@ -1,6 +1,4 @@
-![NeKernel](meta/png/nekernel.png)
-
-# Open64x0 Core.
+# Open64x0
 
 ## Brief:
 

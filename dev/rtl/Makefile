@@ -1,8 +1,9 @@
 ##################################################
-# (C) Amlal EL Mahrouss, 2024-2025, all rights reserved.
+# (C) Amlal El Mahrouss 2024-2025, 2024-2025, licensed under Apache 2.0.
 # This is the RTL makefile.
 ##################################################
 
+# Use the 2008 standard for that matter.
 VHDL_FLAG=-a --work=RTL --std=08 --ieee=synopsys
 VCD_FLAG=-r --std=08
 
@@ -14,6 +15,7 @@ endif
 
 .PHONY: all
 all:
+	@echo "=> BUILDING..."
 	$(VHDL_CC) $(VHDL_FLAG) InstructionDecode.vhd
 	$(VHDL_CC) $(VHDL_FLAG) FPRegister.vhd
 	$(VHDL_CC) $(VHDL_FLAG) GPRegister.vhd
@@ -24,7 +26,9 @@ all:
 	$(VHDL_CC) $(VHDL_FLAG) ClockCircuit.vhd
 	$(VHDL_CC) $(VHDL_FLAG) InstructionFetch.vhd
 	$(VHDL_CC) $(VCD_FLAG) RTL.InstructionFetch --vcd=InstructionFetch.vcd
+	@echo "=> BUILDING DONE."
 
 .PHONY: help
 help:
-	@echo "all: Build CPU for simulation."
+	@echo "=> HELP:"
+	@echo "=> all: Build CPU for simulation."

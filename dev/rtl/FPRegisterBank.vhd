@@ -1,4 +1,4 @@
--- ( (c) Amlal EL Mahrouss, all rights reserved. )
+-- ( (c) Amlal El Mahrouss 2024-2025, licensed under Apache 2.0 )
 -- ( This file handles the register bank for floating point registers. (FP). )
 
 LIBRARY IEEE;
