@@ -1,11 +1,11 @@
--- ( (c) Amlal El Mahrouss 2024-2025, licensed under Apache 2.0 )
+-- ( (c) Amlal El Mahrouss 2024-2026, licensed under Apache 2.0 )
 -- ( This file handles the general purpose register entity. )
 
 LIBRARY IEEE;
 
 USE IEEE.std_logic_1164.ALL;
 
--- Interrupt unity entity
+-- Interrupt unit entity
 ENTITY GPRegister IS
 
     PORT (
