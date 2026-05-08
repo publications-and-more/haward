@@ -1,4 +1,4 @@
--- ( (c) Amlal El Mahrouss 2024-2025, licensed under Apache 2.0 )
+-- ( (c) Amlal El Mahrouss 2024-2026, licensed under Apache 2.0 )
 -- ( This file handles the hardware thread register. )
 
 LIBRARY IEEE;
@@ -12,7 +12,7 @@ ENTITY ThreadRegister IS
 
         -- address to fetch on.
         cpu_incoming_ip : IN STD_LOGIC_VECTOR(57 DOWNTO 0) := (OTHERS => '0');
-        cpu_incoming_clk_signal : IN STD_LOGIC := '1'
+        cpu_incoming_clk_signal : IN STD_LOGIC := ('1');
 
     );
 
