@@ -3,7 +3,7 @@
 ## Abstract
 
 Here you will find samples, documentation and the VHDL sources.
-The ROM needs the 64asm from NeKernel's `necti`, please get that as well.
+The ROM needs the 64k assembler from Ne.app's `nectar`, please get that as well.
 
 ## Cloning
 
